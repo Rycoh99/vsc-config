@@ -56,5 +56,15 @@
 			"text": "\u0003"
 		},
 		"when": "terminalFocus && terminalHasBeenCreated"
+	},
+	{
+		"key": "ctrl+alt+c",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+/",
+		"command": "-editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly"
 	}
 ]

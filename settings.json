@@ -1,6 +1,8 @@
 {
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
 	"editor.formatOnSave": false,
+	"editor.insertSpaces": false,
 	"editor.mouseWheelZoom": true,
 	"editor.tabSize": 4,
 	"prettier.bracketSpacing": false,
@@ -8,4 +10,9 @@
 	"prettier.useTabs": true,
 	"security.workspace.trust.enabled": false,
 	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"[bat]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
 }
