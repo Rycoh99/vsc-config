@@ -1,0 +1,60 @@
+[
+	{
+		"key": "ctrl+k ctrl+u",
+		"command": "editor.action.transformToUppercase"
+	},
+	{
+		"key": "ctrl+k ctrl+l",
+		"command": "editor.action.transformToLowercase"
+	},
+	{
+		"key": "ctrl+i ctrl+t",
+		"command": "editor.action.indentationToTabs"
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "editor.action.indentUsingTabs"
+	},
+	{
+		"key": "ctrl+alt+r",
+		"command": "editor.action.reindentlines"
+	},
+	{
+		"key": "ctrl+u",
+		"command": "-cursorUndo",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+alt+c",
+		"command": "workbench.action.terminal.clear",
+		"when": "terminalFocus && terminalHasBeenCreated"
+	},
+	{
+		"key": "ctrl+v",
+		"command": "-workbench.action.terminal.paste",
+		"when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "-markdown.showPreview",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "-notebook.cell.pasteAbove",
+		"when": "notebookEditorFocused && !inputFocus"
+	},
+	{
+		"key": "ctrl+v",
+		"command": "-workbench.action.terminal.sendSequence",
+		"when": "terminalFocus && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
+	},
+	{
+		"key": "ctrl+c",
+		"command": "workbench.action.terminal.sendSequence",
+		"args": {
+			"text": "\u0003"
+		},
+		"when": "terminalFocus && terminalHasBeenCreated"
+	}
+]
