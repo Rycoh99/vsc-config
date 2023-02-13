@@ -15,4 +15,11 @@
 		"editor.insertSpaces": false,
 		"editor.tabSize": 4
 	},
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"python.defaultInterpreterPath": "C:\\Program Files\\Python310\\python.exe",
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"workbench.colorTheme": "Behave full",
 }
