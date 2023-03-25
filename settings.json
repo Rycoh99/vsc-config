@@ -22,9 +22,8 @@
 		"editor.defaultFormatter": "ms-python.python"
 	},
 	"workbench.colorTheme": "Behave full",
-	"python.languageServer": "Pylance",
+	"python.languageServer": "Jedi",
 	"remote.SSH.configFile": "C:\\Users\\Rycoh\\.ssh\\vsc_config",
-	"remote.SSH.useFlock": false,
 	"terminal.integrated.enableMultiLinePasteWarning": false,
 	"[json]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
