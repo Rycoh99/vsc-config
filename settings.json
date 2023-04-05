@@ -21,7 +21,7 @@
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
 	},
-	"workbench.colorTheme": "Behave full",
+	"workbench.colorTheme": "Default Dark+ Experimental",
 	"python.languageServer": "Jedi",
 	"remote.SSH.configFile": "C:\\Users\\Rycoh\\.ssh\\vsc_config",
 	"terminal.integrated.enableMultiLinePasteWarning": false,
