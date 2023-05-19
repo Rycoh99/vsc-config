@@ -17,7 +17,7 @@
 	},
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.unicodeHighlight.invisibleCharacters": false,
-	"python.defaultInterpreterPath": "C:\\Program Files\\Python310\\python.exe",
+	"python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
 	},
@@ -29,4 +29,9 @@
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"workbench.startupEditor": "none",
+	"discord.removeRemoteRepository": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
 }
