@@ -34,4 +34,8 @@
 	"[xml]": {
 		"editor.defaultFormatter": "DotJoshJohnson.xml"
 	},
+	"playwright.showTrace": true,
+	"[csharp]": {
+		"editor.defaultFormatter": "csharpier.csharpier-vscode"
+	},
 }
