@@ -17,19 +17,17 @@
 	},
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.unicodeHighlight.invisibleCharacters": false,
-	"python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
+	"python.defaultInterpreterPath": "C:\\Users\\Rycoh\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
 	"[python]": {
 		"editor.defaultFormatter": "ms-python.python"
 	},
-	"workbench.colorTheme": "Default Dark+ Experimental",
+	"workbench.colorTheme": "Default Dark Modern",
 	"python.languageServer": "Jedi",
-	"remote.SSH.configFile": "C:\\Users\\Rycoh\\.ssh\\vsc_config",
-	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
 	"[json]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"workbench.startupEditor": "none",
-	"discord.removeRemoteRepository": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"[xml]": {
 		"editor.defaultFormatter": "DotJoshJohnson.xml"
